@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lakshayalmadi/dyte-frontend-task/static/css/main.20ed0273.chunk.css",
-    "main.js": "/lakshayalmadi/dyte-frontend-task/static/js/main.1095df60.chunk.js",
-    "main.js.map": "/lakshayalmadi/dyte-frontend-task/static/js/main.1095df60.chunk.js.map",
-    "runtime-main.js": "/lakshayalmadi/dyte-frontend-task/static/js/runtime-main.108dd03e.js",
-    "runtime-main.js.map": "/lakshayalmadi/dyte-frontend-task/static/js/runtime-main.108dd03e.js.map",
-    "static/css/2.3ceb25c6.chunk.css": "/lakshayalmadi/dyte-frontend-task/static/css/2.3ceb25c6.chunk.css",
-    "static/js/2.a7eb5e6c.chunk.js": "/lakshayalmadi/dyte-frontend-task/static/js/2.a7eb5e6c.chunk.js",
-    "static/js/2.a7eb5e6c.chunk.js.map": "/lakshayalmadi/dyte-frontend-task/static/js/2.a7eb5e6c.chunk.js.map",
-    "index.html": "/lakshayalmadi/dyte-frontend-task/index.html",
-    "static/css/2.3ceb25c6.chunk.css.map": "/lakshayalmadi/dyte-frontend-task/static/css/2.3ceb25c6.chunk.css.map",
-    "static/css/main.20ed0273.chunk.css.map": "/lakshayalmadi/dyte-frontend-task/static/css/main.20ed0273.chunk.css.map",
-    "static/js/2.a7eb5e6c.chunk.js.LICENSE.txt": "/lakshayalmadi/dyte-frontend-task/static/js/2.a7eb5e6c.chunk.js.LICENSE.txt"
+    "main.css": "/dyte-frontend-task/static/css/main.20ed0273.chunk.css",
+    "main.js": "/dyte-frontend-task/static/js/main.1095df60.chunk.js",
+    "main.js.map": "/dyte-frontend-task/static/js/main.1095df60.chunk.js.map",
+    "runtime-main.js": "/dyte-frontend-task/static/js/runtime-main.172cf8f2.js",
+    "runtime-main.js.map": "/dyte-frontend-task/static/js/runtime-main.172cf8f2.js.map",
+    "static/css/2.3ceb25c6.chunk.css": "/dyte-frontend-task/static/css/2.3ceb25c6.chunk.css",
+    "static/js/2.a7eb5e6c.chunk.js": "/dyte-frontend-task/static/js/2.a7eb5e6c.chunk.js",
+    "static/js/2.a7eb5e6c.chunk.js.map": "/dyte-frontend-task/static/js/2.a7eb5e6c.chunk.js.map",
+    "index.html": "/dyte-frontend-task/index.html",
+    "static/css/2.3ceb25c6.chunk.css.map": "/dyte-frontend-task/static/css/2.3ceb25c6.chunk.css.map",
+    "static/css/main.20ed0273.chunk.css.map": "/dyte-frontend-task/static/css/main.20ed0273.chunk.css.map",
+    "static/js/2.a7eb5e6c.chunk.js.LICENSE.txt": "/dyte-frontend-task/static/js/2.a7eb5e6c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.108dd03e.js",
+    "static/js/runtime-main.172cf8f2.js",
     "static/css/2.3ceb25c6.chunk.css",
     "static/js/2.a7eb5e6c.chunk.js",
     "static/css/main.20ed0273.chunk.css",
