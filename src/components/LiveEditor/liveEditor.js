@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function liveEditor({srcDoc}) {
+export default function LiveScreen({srcDoc}) {
     return (
         <div>
             <iframe 
             className="live-editor"
-            srcDoc={srcDOC}
+            srcDoc={srcDoc}
             title="Live Renderer"
             sandbox="allow-scripts"
             frameBorder="0"

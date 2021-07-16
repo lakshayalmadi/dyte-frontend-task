@@ -6,23 +6,12 @@ import 'codemirror/mode/css/css'
 import 'codemirror/mode/javascript/javascript'
 import {Controlled as ControlledEditor} from 'react-codemirror2'
 
-export default function Editor(props) {
-    const {
-        language,
-        value,
-        onChange
-    }=props
-
-    function handleChange(editor, data, value){
-        onChange(value)
-    }
-
+const Editor = ({ language, value, onChange }) => {
     return (
-        <div className="editor-container">
+        <div className="editor">
             <ControlledEditor 
-                onBeforeChange={handleChange}
+                onBeforeChange={onChange}
                 value={value}
-                className="editor"
                 options={{
                     lineWrapping:true,
                     lint: true,
@@ -32,5 +21,7 @@ export default function Editor(props) {
                 }}
             />
         </div>
-    )
-}
+    );
+};
+
+export default Editor;
