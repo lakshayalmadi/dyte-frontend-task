@@ -3,11 +3,11 @@ import React from 'react'
 export default function FileExplorer({onClick}) {
     return (
         <div className='left-pane'>
-            <h1>File Explorer</h1>
+            <h1 className="file-explorer-heading">File Explorer</h1>
             <div>
-                <button onClick={onClick} data-file='index.html'>index.html</button>
-                <button onClick={onClick} data-file='index.css'>index.css</button>
-                <button onClick={onClick} data-file='index.js'>index.js</button>
+                <button onClick={onClick} data-file='index.html' type="button" class="btn btn-primary explorer-btn">index.html</button>
+                <button onClick={onClick} data-file='index.css' type="button" class="btn btn-primary explorer-btn">index.css</button>
+                <button onClick={onClick} data-file='index.js' type="button" class="btn btn-primary explorer-btn">index.js</button>
             </div>
         </div>
     )

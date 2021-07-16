@@ -2,21 +2,35 @@
 
 body {
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+.navbar{
+  background-color:#111111;
+  padding: 12px;
+}
+.btn{
+  background-color: #2160FD !important;
+  color:white
 }
 
 .top-pane{
   background-color: #191919;
 }
-.navbar-button{
-  background-color: #2160FD;
-  color:white
-}
 .pane{
   height: 50vh;
   display: flex;
 }
-
+.file-explorer-heading{
+  color:white;
+  padding:15px;
+}
+.explorer-btn{
+  display: flex;
+  flex-direction: row;
+  margin:15px;
+  width:300px;
+}
 .editor-container{
   flex-grow:1;
   flex-basis: 0;
@@ -55,10 +69,6 @@ body {
   text-align: center;
 }
 
-.navbar{
-  background-color:#111111;
-  padding: 10px;
-}
 
 .editor-box{
   width:100%;
