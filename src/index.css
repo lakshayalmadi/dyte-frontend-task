@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 body {
   margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .top-pane{
   background-color: #191919;
 }
-
+.navbar-button{
+  background-color: #2160FD;
+  color:white
+}
 .pane{
   height: 50vh;
   display: flex;
@@ -40,11 +46,21 @@ body {
   margin-bottom: 10px !important;
 }
 
-h1{
+.live-editor-head{
   background-color: #191919;
   margin:0;
-  color:rgb(238, 238, 238);
+  padding-bottom: 10px;
+  color:white;
   padding-top: 20px;
   text-align: center;
-  text-decoration: underline;
+}
+
+.navbar{
+  background-color:#111111;
+  padding: 10px;
+}
+
+.editor-box{
+  width:100%;
+  background-color: white;
 }
