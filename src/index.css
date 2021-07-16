@@ -10,7 +10,7 @@ body {
   padding: 12px;
 }
 .btn{
-  background-color: #2160FD !important;
+  background-color: #191919 !important;
   color:white
 }
 
@@ -26,9 +26,8 @@ body {
   padding:15px;
 }
 .explorer-btn{
-  display: flex;
-  flex-direction: row;
-  margin:15px;
+  margin:10px 10px 0;
+  margin-bottom:10px;
   width:300px;
 }
 .editor-container{
@@ -52,7 +51,7 @@ body {
 .CodeMirror{
   height: 100% !important;
   flex-grow: 1;
-  border-radius:0 0  1rem 1rem ;
+  border-radius:0 ;
 }
 .code-mirror-wrapper{
   flex-grow: 1;

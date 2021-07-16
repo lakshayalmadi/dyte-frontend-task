@@ -35,11 +35,11 @@ function App() {
     <div>
       <Navbar />
       <div className="container-fluid">
-        <div className="row">
-          <div className="pane top-pane left-pane col">
+        {/* <div className="row"> */}
+          <div className="pane top-pane left-pane ">
             <FileExplorer onClick={fileChangeHandler}/>
           </div>
-          <div className="pane top-pane right-pane col">
+          <div className="pane top-pane right-pane ">
             {/* <h1 className="file-explorer-heading">Code Editor</h1> */}
               <div className="pane top-pane right-pane col">
                 {selectedfile==='index.html' && <Editor
@@ -61,8 +61,8 @@ function App() {
                 onChange={setJavascript}
                 />}
               </div>
-          </div>
-        </div>  
+          
+          </div>  
       </div>
       
       <h1 className="live-editor-head">Live View</h1>
