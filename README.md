@@ -1,3 +1,25 @@
+#This project was made in react 
+
+## Link to the github version: https://lakshayalmadi.github.io/dyte-frontend-task/
+## Link to the vercel app version: https://dyte-frontend-taskk.vercel.app/dyte-frontend-task
+
+The github version has the following functionalities- 
+1) Implementation of file editor
+2) Implementation of code editor
+3) Implemenetation of live view
+4) Hosted via github pages(bonus)
+
+While using the API, I got an error in which I couldn't send out more requests so I tried implementing my own version for it with the same functionality.
+The backend part generates a link which can be shared to others and can see the code which was written by them, for this I am using mongoDB. Implementation for this wasn't working on github pages so I tried using a different platform for this (vercel).
+
+The vercel version has following functionalities-
+1) Implementation of file editor
+2) Implementation of code editor
+3) Implemenetation of live view
+4) Hosted via vercel
+5) After clicking on the share button it generates a link which can be shared to others and can be sent to see the implemented code. (Bonus)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
