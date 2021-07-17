@@ -3,7 +3,7 @@
 ## Link to the github version: https://lakshayalmadi.github.io/dyte-frontend-task/
 ## Link to the vercel app version: https://dyte-frontend-taskk.vercel.app/dyte-frontend-task
 
-The github version has the following functionalities- 
+## The github version has the following functionalities- 
 1) Implementation of file editor
 2) Implementation of code editor
 3) Implemenetation of live view
@@ -12,7 +12,7 @@ The github version has the following functionalities-
 While using the API, I got an error in which I couldn't send out more requests so I tried implementing my own version for it with the same functionality.
 The backend part generates a link which can be shared to others and can see the code which was written by them, for this I am using mongoDB. Implementation for this wasn't working on github pages so I tried using a different platform for this (vercel).
 
-The vercel version has following functionalities-
+## The vercel version has following functionalities-
 1) Implementation of file editor
 2) Implementation of code editor
 3) Implemenetation of live view
