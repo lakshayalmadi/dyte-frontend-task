@@ -1,4 +1,4 @@
-#This project was made in react 
+# This project was made in react 
 
 ## Link to the github version: https://lakshayalmadi.github.io/dyte-frontend-task/
 ## Link to the vercel app version: https://dyte-frontend-taskk.vercel.app/dyte-frontend-task
