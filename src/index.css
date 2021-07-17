@@ -2,7 +2,6 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
 }
 
 body {
@@ -18,18 +17,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.navbar{
-  background-color:#111111;
+.navbar {
+  width: 100%;
+  background-color: #111111;
   padding: 12px;
-  width:100%;
-  color:white;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
-.left{
+
+.copy-link {
+  background-color: #2160FD;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+/* .left{
   background-color: #191919;
   width:50%;
   margin:150px;
   padding:0px;
-  color:white
+  color:white;
+  overflow: hidden;
 }
 .left h2{
   padding-bottom:35px ;
@@ -43,21 +52,26 @@ code {
   color:white
 }
 
+.homeimg{
+  width:550px;
+  height:350px;
+} */
+
 .tabs {
   display: flex;
-  background-color: #191919;
+  background-color:#111111;
 }
 
 .tabs div {
   padding: 16px 20px;
-  margin: 4px 0px;
+  margin: 0px;
   font-style: italic;
   color: white;
   cursor: pointer;
 }
 
 .active {
-  background-color: #263238;
+  background-color:#263238;
 }
 
 .editor {
